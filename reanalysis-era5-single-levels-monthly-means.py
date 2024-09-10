@@ -2,7 +2,7 @@ import cdsapi
 import sys
 
 dataset = "reanalysis-era5-single-levels-monthly-means"
-variables = ['sea_surface_temperature', '2m_temperature', 'total_precipitation','total_cloud_cover','total_column_water_vapour']  # Add the list of variables you want to download
+variables = ['sea_surface_temperature', '2m_temperature', 'total_precipitation','total_cloud_cover','total_column_water_vapour','mean_sea_level_pressure']  # Add the list of variables you want to download
 
 # Initialize the client
 client = cdsapi.Client()
