@@ -2,7 +2,7 @@ import cdsapi
 import sys
 
 dataset = "reanalysis-era5-pressure-levels-monthly-means"
-variables = ['geopotential']  # Add the list of variables you want to download
+variables = ['geopotential','temperature','u_component_of_wind','v_component_of_wind']  # Add the list of variables you want to download
 
 # Initialize the client
 client = cdsapi.Client()
